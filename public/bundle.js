@@ -25013,7 +25013,11 @@
 	            React.createElement(
 	              'li',
 	              null,
-	              React.createElement('button', { type: 'submit', className: 'button', value: 'Get Weather' })
+	              React.createElement(
+	                'button',
+	                { type: 'submit', className: 'button' },
+	                'Get Weather'
+	              )
 	            )
 	          )
 	        )

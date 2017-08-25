@@ -27,7 +27,7 @@ onSearch: function(e) {
           <form onSubmit={this.onSearch}>
             <ul className="menu">
               <li><input type="search" placeholder="Search Weather"/></li>
-              <li><button type="submit" className="button" value="Get Weather"/></li>
+              <li><button type="submit" className="button">Get Weather</button></li>
             </ul>
           </form>
         </div>
